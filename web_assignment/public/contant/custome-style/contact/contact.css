@@ -1,0 +1,78 @@
+.contactMail {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactMail form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactMail form span {
+    font-size: 18px;
+}
+
+.contactMail form h2 {
+    font-size: 36px;
+}
+
+.contactMail form input,
+.contactMail form textarea {
+    width: 100%;
+    padding: 15px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #55554b;
+}
+
+.contactMail form button {
+    font-size: 24px;
+    color: white;
+    background-color: #088178;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.contactMail .people {
+    width: 50%;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.contactMail .people .single_people img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 3px 8px rgb(0 0 0 / 12%);
+}
+
+.contactMail .people .single_people {
+    display: flex;
+    margin: 25px 0px;
+}
+
+.contactMail .people .single_people .people_text {
+    margin: 0px 25px;
+}
+
+.contactMail .people .single_people .people_text span {
+    font-size: 24px;
+}
+
+.contactMail .people .single_people .people_text h4 {
+    font-size: 18px;
+}
+
+.contactMail .people .single_people .people_text p {
+    font-size: 18px;
+    margin: 0px 0px;
+}
+.contactMail .people .single_people .people_image {
+    width: 150px;
+    height: 150px;
+}

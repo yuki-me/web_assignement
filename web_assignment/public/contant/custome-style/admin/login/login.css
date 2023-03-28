@@ -1,0 +1,50 @@
+#login {
+    /* display: none; */
+    width: 350px;
+    height: 300px;
+}
+
+.forget_pwd a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#signup {
+    display: none;
+    width: 1200px;
+    height: 550px;
+}
+
+#SshowPass {
+    font-size: 18px;
+    margin-left: -30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#ShidePass {
+    display: none;
+    font-size: 18px;
+    margin-left: -30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#CshowPass {
+    font-size: 18px;
+    margin-left: -30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#ChidePass {
+    display: none;
+    font-size: 18px;
+    margin-left: -30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 90%;
+}

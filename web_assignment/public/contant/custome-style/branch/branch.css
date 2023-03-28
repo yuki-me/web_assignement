@@ -1,0 +1,48 @@
+.branch {
+    width: 100%;
+    padding: 15px;
+}
+
+.title_header {
+    height: 50px;
+    width: 100%;
+    box-shadow: rgb(0, 0, 0) 0.5px 0 4px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+.branch .title_header .branch_icon {
+    font-size: 24px;
+    padding-top: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: blue;
+}
+
+.branch .title_header p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.body_branch {
+    width: 100%;
+    /* height: 100%; */
+    height: auto;
+}
+
+.body_branch .single_branch {
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0) 0.5px 0 4px;
+    border-radius: 10px;
+    margin: 10px 15px;
+}
+
+.body_branch .single_branch:hover {
+    box-shadow: rgb(0, 0, 0) 0.5px 0 8px;
+    background-color: aliceblue;
+}

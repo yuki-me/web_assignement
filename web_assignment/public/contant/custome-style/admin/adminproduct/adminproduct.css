@@ -1,0 +1,82 @@
+.mr_product {
+    margin: 0px;
+    padding: 5px;
+}
+
+.pro_header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.header_btn {
+    margin: 0px 15px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: darkturquoise;
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 5px;
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.btn_promodal,
+.btn_subcatemodal,
+.btn_catemodal {
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+
+.table_area {
+    margin-top: 5px;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+.table_area table {
+    width: 100%;
+    height: auto;
+}
+
+table thead th {
+    border: 1px solid black;
+}
+
+table tbody tr td {
+    border: 1px solid black;
+}
+
+table tbody tr td i {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+/* .message {
+    position: absolute;
+    display: flex;
+}
+
+.my_margin {
+    width: 70%;
+    height: auto;
+}
+
+.my_message {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    background-color: aquamarine;
+} */

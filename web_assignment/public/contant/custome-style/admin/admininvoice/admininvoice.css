@@ -1,0 +1,50 @@
+.mr_invoice {
+    margin: 0px;
+    padding: 5px;
+}
+
+.title {
+    margin-top: 5px;
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.btn_cusmodal {
+    margin-top: 5px;
+    padding: 0px 10px;
+}
+
+.table_area {
+    margin-top: 5px;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+}
+
+.table_area table {
+    width: 100%;
+    height: auto;
+}
+
+table thead th {
+    border: 1px solid black;
+}
+
+table tbody tr td {
+    border: 1px solid black;
+}
+
+table tbody tr td i {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+form {
+    width: 50%;
+    margin: 5px 10px;
+}

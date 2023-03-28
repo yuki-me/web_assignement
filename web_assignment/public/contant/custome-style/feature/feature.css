@@ -1,0 +1,160 @@
+.feature_box {
+    display: flex;
+    margin-top: 15px;
+}
+
+.category_left {
+    width: 320px;
+    padding: 10px 0px;
+}
+
+.product_right {
+    width: 980px;
+    padding: 10px 25px;
+}
+
+.display_product_feature {
+    border-radius: 25px;
+    height: auto;
+    background-color: white;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.body_display_product_feature {
+    display: flex;
+    position: relative;
+    padding-bottom: 25px;
+    /* overflow-x: scroll; */
+    width: 100%;
+}
+
+.body_display_product_feature .singel_product {
+    width: 205px;
+}
+
+.show_hide_category {
+    list-style-type: none;
+}
+
+.sub_category_box {
+    margin-left: 15px;
+}
+
+.show_hide_category ul,
+.show_hide_category input,
+.show_hide_category .closer,
+.show_hide_category input:checked ~ .opener {
+    display: none;
+    list-style-type: none;
+}
+
+.show_hide_category input:checked ~ ul,
+.show_hide_category input:checked ~ .closer {
+    display: block;
+}
+
+.btn_category {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 3px 8px rgb(0 0 0 / 12%);
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.btn_category span {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn_category i {
+    margin-left: 155px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.panel_category {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 3px 8px rgb(0 0 0 / 12%);
+    padding: 10px 25px;
+}
+
+.panel_category ul li label {
+    cursor: pointer;
+}
+
+.flitter_price {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 3px 8px rgb(0 0 0 / 12%);
+    padding: 10px 0px;
+    margin-top: 25px;
+}
+
+.select_op {
+    justify-content: space-between;
+}
+
+.title_category_left span {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.group_select {
+    width: 40%;
+    padding: 0px 10px;
+}
+
+.group_select label {
+    margin-bottom: 5px;
+}
+
+.icon_price_flitter {
+    width: auto;
+    margin-top: 35px;
+}
+
+.icon_price_flitter span {
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.icon_price_flitter span i {
+    font-size: 20px;
+}
+
+.flitter_size {
+    width: 100%;
+    /* height: 150px; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%), 0 3px 8px rgb(0 0 0 / 12%);
+    padding: 10px 0px;
+    margin-top: 25px;
+}
+
+.check_size {
+    padding: 0px 10px;
+}
+
+.right_header_display {
+    justify-content: space-between;
+    display: flex;
+}
+
+.flitter_brand label {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
